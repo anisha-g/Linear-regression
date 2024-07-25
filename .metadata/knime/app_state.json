@@ -1,0 +1,12 @@
+{
+  "version" : "5.2.5.v202405310911",
+  "projects" : [ {
+    "name" : "Knime_Linear-Regression",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Knime_Linear-Regression"
+    }
+  } ]
+}

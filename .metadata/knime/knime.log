@@ -1,0 +1,6 @@
+2024-07-23 16:27:52,127 : WARN  : comm-pool-thread-2 :  : Node : CSV Reader : 3:1 : Please specify a file
+2024-07-23 16:39:37,661 : WARN  : comm-pool-thread-7 :  : Node : Linear Correlation : 3:26 : No double or nominal compatible columns in input
+2024-07-23 16:40:00,093 : WARN  : comm-pool-thread-7 :  : Node : Linear Correlation : 3:26 : No columns selected
+2024-07-24 18:38:36,111 : WARN  : comm-pool-thread-11 :  : Node : Partitioning : 3:28 : No sampling method selected
+2024-07-25 13:55:27,024 : WARN  : comm-pool-thread-23 :  : Node : Numeric Scorer : 3:31 : No columns selected for reference
+2024-07-25 14:04:35,189 : WARN  : comm-pool-thread-29 :  : Node : Numeric Scorer : 3:32 : No such column in input table: Sales

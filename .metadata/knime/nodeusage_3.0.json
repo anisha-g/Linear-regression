@@ -1,0 +1,109 @@
+{
+    "version": "5.2.5.v202405310911",
+    "created": "2024-07-23 10:57",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
+                "nodename": "CSV Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 47,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
+                "successornodename": "Partitioning"
+            },
+            {
+                "id": "org.knime.base.views.node.scatterplot.ScatterPlotNodeFactory",
+                "nodename": "Scatter Plot",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 7794,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.correlation.compute2.CorrelationCompute2NodeFactory",
+                "nodename": "Linear Correlation",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 41,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.views.node.heatmap.HeatmapNodeFactory",
+                "nodename": "Heatmap",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 2050,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
+                "nodename": "Partitioning",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 13,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2",
+                "successornodename": "Linear Regression Learner"
+            },
+            {
+                "id": "org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2",
+                "nodename": "Linear Regression Learner",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 193,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory",
+                "successornodename": "Numeric Scorer"
+            },
+            {
+                "id": "org.knime.base.node.mine.regression.predict3.RegressionPredictorNodeFactory2",
+                "nodename": "Regression Predictor",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 57,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory",
+                "successornodename": "Numeric Scorer"
+            },
+            {
+                "id": "org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory",
+                "nodename": "Numeric Scorer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+            "WEB_UI": 6
+        }
+    },
+    "uptime": 164375733,
+    "workflowsOpened": 1,
+    "remoteWorkflowsOpened": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 0,
+    "lastUsedPerspective": "starter",
+    "launches": 1,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 164375733,
+    "crashes": 0,
+    "properlyShutDown": true
+}
